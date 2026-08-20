@@ -18,6 +18,8 @@
 
 ## 🚀 사용 방법
 
+![image](./sample_image.png)
+
 Alfred 검색창을 열고 `zip` 키워드 뒤에 검색할 도로명, 건물명, 지번을 입력합니다.
 
 ```text
