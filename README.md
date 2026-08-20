@@ -1,4 +1,3 @@
-```markdown
 # Alfred Juso & English Address Search Workflow (`zip`)
 
 행정안전부 주소정보누리집 데이터를 기반으로 **도로명 한글 주소** 및 **영문 변환 주소**를 실시간으로 검색하고 클립보드에 바로 복사할 수 있는 Alfred 워크플로우입니다.
@@ -18,7 +17,7 @@
 
 ## 🚀 사용 방법
 
-![image](./sample_image.png)
+![image](sample_image.png)
 
 Alfred 검색창을 열고 `zip` 키워드 뒤에 검색할 도로명, 건물명, 지번을 입력합니다.
 
@@ -64,6 +63,8 @@ zip [검색할 주소]
 
 ## 📜 Script Filter 코드
 
+```bash
+```
 ```bash
 /usr/bin/python3 - << 'EOF'
 import sys
@@ -155,8 +156,6 @@ EOF
 
 
 ## 📋 시스템 요구사항
-```
-```
+
 * **macOS** (Python 3 기본 내장)
 * **Alfred 4 또는 Alfred 5** (Powerpack 필요)
-```
